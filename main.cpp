@@ -12,7 +12,7 @@ int main()
     cin >> user_age;
     cout << "================================\n";
     cout << "You lived : " << user_age * 365 / 12 << " mounths\n";
-    cout << "You lived : " << user_age * 365 / 12 / 7 << " weeks\n";
+    cout << "You lived : " << user_age * 365 / 7 << " weeks\n";
     cout << "You lived : " << user_age * 365 << " days\n";
     cout << "You lived : " << user_age * 365 * 24 << " hourts\n";
     cout << "You lived : " << user_age * 365 * 24 * 60 << " min\n";
